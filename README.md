@@ -11,9 +11,9 @@ So, if you need to move away from SpriteKit and want to make a simple applicatio
 
 # Functionality
 
-**AlvinPhysics is far from a complete library**. It does **not** expose the full Chipmunk2D functionality. It does **not** implement the full SpriteKit functionality. It is more like a good base to get you started with a Chipmunk2D + UIKit.
+**AlvinPhysics is far from a complete library**. It does **not** expose the full Chipmunk2D functionality. It does **not** implement the full SpriteKit functionality. It is more like a good base to get you started with Chipmunk2D + UIKit.
 
-I will commit any future improvements to the code. If there is interest in the project I will do my best to provide support or incorporate updates.
+I will commit any future improvements to the code. If there is interest in the project I will do my best to provide support and incorporate updates.
 
 # Performance
 
