@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840166D21A38713A004B3302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840166D11A38713A004B3302 /* main.m */; };
+		840166D51A38713A004B3302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840166D41A38713A004B3302 /* AppDelegate.m */; };
+		840166D81A38713A004B3302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840166D71A38713A004B3302 /* ViewController.m */; };
+		840166DB1A38713A004B3302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840166D91A38713A004B3302 /* Main.storyboard */; };
+		840166DD1A38713A004B3302 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840166DC1A38713A004B3302 /* Images.xcassets */; };
+		840166E01A38713A004B3302 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840166DE1A38713A004B3302 /* LaunchScreen.xib */; };
+		840166EC1A38713A004B3302 /* AlvinPhysicsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840166EB1A38713A004B3302 /* AlvinPhysicsDemoTests.m */; };
+		840167131A387187004B3302 /* AlvinAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 840166F71A387187004B3302 /* AlvinAction.m */; };
+		840167141A387187004B3302 /* AlvinArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 840166FA1A387187004B3302 /* AlvinArt.m */; };
+		840167151A387187004B3302 /* AlvinBlockAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 840166FD1A387187004B3302 /* AlvinBlockAction.m */; };
+		840167161A387187004B3302 /* AlvinPhysicsBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 840167001A387187004B3302 /* AlvinPhysicsBody.m */; };
+		840167171A387187004B3302 /* AlvinPhysicsWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 840167031A387187004B3302 /* AlvinPhysicsWorld.m */; };
+		840167181A387187004B3302 /* AlvinQueueAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 840167061A387187004B3302 /* AlvinQueueAction.m */; };
+		840167191A387187004B3302 /* AlvinRepeatAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 840167081A387187004B3302 /* AlvinRepeatAction.m */; };
+		8401671A1A387187004B3302 /* AlvinScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401670A1A387187004B3302 /* AlvinScene.m */; };
+		8401671B1A387187004B3302 /* AlvinSelectorAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401670C1A387187004B3302 /* AlvinSelectorAction.m */; };
+		8401671C1A387187004B3302 /* AlvinShapeArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401670E1A387187004B3302 /* AlvinShapeArt.m */; };
+		8401671D1A387187004B3302 /* AlvinSleepAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 840167101A387187004B3302 /* AlvinSleepAction.m */; };
+		8401671E1A387187004B3302 /* AlvinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840167121A387187004B3302 /* AlvinView.m */; };
+		840167441A387EFB004B3302 /* libChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8401673A1A387EFB004B3302 /* libChipmunk-iPhone.a */; };
+		840167451A387EFB004B3302 /* libObjectiveChipmunk-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8401673B1A387EFB004B3302 /* libObjectiveChipmunk-iPhone.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840166E61A38713A004B3302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840166C41A38713A004B3302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840166CB1A38713A004B3302;
+			remoteInfo = AlvinPhysicsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840166CC1A38713A004B3302 /* AlvinPhysicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlvinPhysicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840166D01A38713A004B3302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840166D11A38713A004B3302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840166D31A38713A004B3302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840166D41A38713A004B3302 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840166D61A38713A004B3302 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840166D71A38713A004B3302 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840166DA1A38713A004B3302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840166DC1A38713A004B3302 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840166DF1A38713A004B3302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		840166E51A38713A004B3302 /* AlvinPhysicsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlvinPhysicsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840166EA1A38713A004B3302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840166EB1A38713A004B3302 /* AlvinPhysicsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlvinPhysicsDemoTests.m; sourceTree = "<group>"; };
+		840166F61A387187004B3302 /* AlvinAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinAction.h; sourceTree = "<group>"; };
+		840166F71A387187004B3302 /* AlvinAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinAction.m; sourceTree = "<group>"; };
+		840166F81A387187004B3302 /* AlvinActionScrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinActionScrets.h; sourceTree = "<group>"; };
+		840166F91A387187004B3302 /* AlvinArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinArt.h; sourceTree = "<group>"; };
+		840166FA1A387187004B3302 /* AlvinArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinArt.m; sourceTree = "<group>"; };
+		840166FB1A387187004B3302 /* AlvinArtSecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinArtSecrets.h; sourceTree = "<group>"; };
+		840166FC1A387187004B3302 /* AlvinBlockAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinBlockAction.h; sourceTree = "<group>"; };
+		840166FD1A387187004B3302 /* AlvinBlockAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinBlockAction.m; sourceTree = "<group>"; };
+		840166FE1A387187004B3302 /* AlvinBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinBridgingHeader.h; sourceTree = "<group>"; };
+		840166FF1A387187004B3302 /* AlvinPhysicsBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinPhysicsBody.h; sourceTree = "<group>"; };
+		840167001A387187004B3302 /* AlvinPhysicsBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinPhysicsBody.m; sourceTree = "<group>"; };
+		840167011A387187004B3302 /* AlvinPhysicsBodySecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinPhysicsBodySecrets.h; sourceTree = "<group>"; };
+		840167021A387187004B3302 /* AlvinPhysicsWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinPhysicsWorld.h; sourceTree = "<group>"; };
+		840167031A387187004B3302 /* AlvinPhysicsWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinPhysicsWorld.m; sourceTree = "<group>"; };
+		840167041A387187004B3302 /* AlvinPhysicsWorldSecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinPhysicsWorldSecrets.h; sourceTree = "<group>"; };
+		840167051A387187004B3302 /* AlvinQueueAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinQueueAction.h; sourceTree = "<group>"; };
+		840167061A387187004B3302 /* AlvinQueueAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinQueueAction.m; sourceTree = "<group>"; };
+		840167071A387187004B3302 /* AlvinRepeatAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinRepeatAction.h; sourceTree = "<group>"; };
+		840167081A387187004B3302 /* AlvinRepeatAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinRepeatAction.m; sourceTree = "<group>"; };
+		840167091A387187004B3302 /* AlvinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinScene.h; sourceTree = "<group>"; };
+		8401670A1A387187004B3302 /* AlvinScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinScene.m; sourceTree = "<group>"; };
+		8401670B1A387187004B3302 /* AlvinSelectorAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinSelectorAction.h; sourceTree = "<group>"; };
+		8401670C1A387187004B3302 /* AlvinSelectorAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinSelectorAction.m; sourceTree = "<group>"; };
+		8401670D1A387187004B3302 /* AlvinShapeArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinShapeArt.h; sourceTree = "<group>"; };
+		8401670E1A387187004B3302 /* AlvinShapeArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinShapeArt.m; sourceTree = "<group>"; };
+		8401670F1A387187004B3302 /* AlvinSleepAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinSleepAction.h; sourceTree = "<group>"; };
+		840167101A387187004B3302 /* AlvinSleepAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinSleepAction.m; sourceTree = "<group>"; };
+		840167111A387187004B3302 /* AlvinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlvinView.h; sourceTree = "<group>"; };
+		840167121A387187004B3302 /* AlvinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlvinView.m; sourceTree = "<group>"; };
+		840167211A387EFB004B3302 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		840167221A387EFB004B3302 /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		840167231A387EFB004B3302 /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		840167241A387EFB004B3302 /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		840167251A387EFB004B3302 /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		840167261A387EFB004B3302 /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		840167271A387EFB004B3302 /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		840167281A387EFB004B3302 /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		840167291A387EFB004B3302 /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		8401672A1A387EFB004B3302 /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		8401672B1A387EFB004B3302 /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		8401672C1A387EFB004B3302 /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		8401672D1A387EFB004B3302 /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		8401672E1A387EFB004B3302 /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		8401672F1A387EFB004B3302 /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		840167301A387EFB004B3302 /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		840167311A387EFB004B3302 /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		840167321A387EFB004B3302 /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		840167331A387EFB004B3302 /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		840167341A387EFB004B3302 /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		840167351A387EFB004B3302 /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		840167361A387EFB004B3302 /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		840167371A387EFB004B3302 /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
+		840167381A387EFB004B3302 /* cpTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpTransform.h; sourceTree = "<group>"; };
+		840167391A387EFB004B3302 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		8401673A1A387EFB004B3302 /* libChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-iPhone.a"; sourceTree = "<group>"; };
+		8401673B1A387EFB004B3302 /* libObjectiveChipmunk-iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libObjectiveChipmunk-iPhone.a"; sourceTree = "<group>"; };
+		8401673D1A387EFB004B3302 /* ChipmunkBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkBody.h; sourceTree = "<group>"; };
+		8401673E1A387EFB004B3302 /* ChipmunkConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkConstraint.h; sourceTree = "<group>"; };
+		8401673F1A387EFB004B3302 /* ChipmunkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkExtras.h; sourceTree = "<group>"; };
+		840167401A387EFB004B3302 /* ChipmunkMultiGrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkMultiGrab.h; sourceTree = "<group>"; };
+		840167411A387EFB004B3302 /* ChipmunkShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkShape.h; sourceTree = "<group>"; };
+		840167421A387EFB004B3302 /* ChipmunkSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipmunkSpace.h; sourceTree = "<group>"; };
+		840167431A387EFB004B3302 /* ObjectiveChipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveChipmunk.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840166C91A38713A004B3302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840167441A387EFB004B3302 /* libChipmunk-iPhone.a in Frameworks */,
+				840167451A387EFB004B3302 /* libObjectiveChipmunk-iPhone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840166E21A38713A004B3302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840166C31A38713A004B3302 = {
+			isa = PBXGroup;
+			children = (
+				8401671F1A387EFB004B3302 /* Chipmunk2D */,
+				840166F51A387187004B3302 /* AlvinPhysics */,
+				840166CE1A38713A004B3302 /* AlvinPhysicsDemo */,
+				840166E81A38713A004B3302 /* AlvinPhysicsDemoTests */,
+				840166CD1A38713A004B3302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840166CD1A38713A004B3302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840166CC1A38713A004B3302 /* AlvinPhysicsDemo.app */,
+				840166E51A38713A004B3302 /* AlvinPhysicsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840166CE1A38713A004B3302 /* AlvinPhysicsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				840166D31A38713A004B3302 /* AppDelegate.h */,
+				840166D41A38713A004B3302 /* AppDelegate.m */,
+				840166D61A38713A004B3302 /* ViewController.h */,
+				840166D71A38713A004B3302 /* ViewController.m */,
+				840166D91A38713A004B3302 /* Main.storyboard */,
+				840166DC1A38713A004B3302 /* Images.xcassets */,
+				840166DE1A38713A004B3302 /* LaunchScreen.xib */,
+				840166CF1A38713A004B3302 /* Supporting Files */,
+			);
+			path = AlvinPhysicsDemo;
+			sourceTree = "<group>";
+		};
+		840166CF1A38713A004B3302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840166D01A38713A004B3302 /* Info.plist */,
+				840166D11A38713A004B3302 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840166E81A38713A004B3302 /* AlvinPhysicsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				840166EB1A38713A004B3302 /* AlvinPhysicsDemoTests.m */,
+				840166E91A38713A004B3302 /* Supporting Files */,
+			);
+			path = AlvinPhysicsDemoTests;
+			sourceTree = "<group>";
+		};
+		840166E91A38713A004B3302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840166EA1A38713A004B3302 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840166F51A387187004B3302 /* AlvinPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				840166F61A387187004B3302 /* AlvinAction.h */,
+				840166F71A387187004B3302 /* AlvinAction.m */,
+				840166F81A387187004B3302 /* AlvinActionScrets.h */,
+				840166F91A387187004B3302 /* AlvinArt.h */,
+				840166FA1A387187004B3302 /* AlvinArt.m */,
+				840166FB1A387187004B3302 /* AlvinArtSecrets.h */,
+				840166FC1A387187004B3302 /* AlvinBlockAction.h */,
+				840166FD1A387187004B3302 /* AlvinBlockAction.m */,
+				840166FE1A387187004B3302 /* AlvinBridgingHeader.h */,
+				840166FF1A387187004B3302 /* AlvinPhysicsBody.h */,
+				840167001A387187004B3302 /* AlvinPhysicsBody.m */,
+				840167011A387187004B3302 /* AlvinPhysicsBodySecrets.h */,
+				840167021A387187004B3302 /* AlvinPhysicsWorld.h */,
+				840167031A387187004B3302 /* AlvinPhysicsWorld.m */,
+				840167041A387187004B3302 /* AlvinPhysicsWorldSecrets.h */,
+				840167051A387187004B3302 /* AlvinQueueAction.h */,
+				840167061A387187004B3302 /* AlvinQueueAction.m */,
+				840167071A387187004B3302 /* AlvinRepeatAction.h */,
+				840167081A387187004B3302 /* AlvinRepeatAction.m */,
+				840167091A387187004B3302 /* AlvinScene.h */,
+				8401670A1A387187004B3302 /* AlvinScene.m */,
+				8401670B1A387187004B3302 /* AlvinSelectorAction.h */,
+				8401670C1A387187004B3302 /* AlvinSelectorAction.m */,
+				8401670D1A387187004B3302 /* AlvinShapeArt.h */,
+				8401670E1A387187004B3302 /* AlvinShapeArt.m */,
+				8401670F1A387187004B3302 /* AlvinSleepAction.h */,
+				840167101A387187004B3302 /* AlvinSleepAction.m */,
+				840167111A387187004B3302 /* AlvinView.h */,
+				840167121A387187004B3302 /* AlvinView.m */,
+			);
+			name = AlvinPhysics;
+			path = ../AlvinPhysics;
+			sourceTree = "<group>";
+		};
+		8401671F1A387EFB004B3302 /* Chipmunk2D */ = {
+			isa = PBXGroup;
+			children = (
+				840167201A387EFB004B3302 /* chipmunk */,
+				8401673A1A387EFB004B3302 /* libChipmunk-iPhone.a */,
+				8401673B1A387EFB004B3302 /* libObjectiveChipmunk-iPhone.a */,
+				8401673C1A387EFB004B3302 /* ObjectiveChipmunk */,
+			);
+			name = Chipmunk2D;
+			path = ../Chipmunk2D;
+			sourceTree = "<group>";
+		};
+		840167201A387EFB004B3302 /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				840167211A387EFB004B3302 /* chipmunk.h */,
+				840167221A387EFB004B3302 /* chipmunk_ffi.h */,
+				840167231A387EFB004B3302 /* chipmunk_private.h */,
+				840167241A387EFB004B3302 /* chipmunk_types.h */,
+				840167251A387EFB004B3302 /* chipmunk_unsafe.h */,
+				840167261A387EFB004B3302 /* cpArbiter.h */,
+				840167271A387EFB004B3302 /* cpBB.h */,
+				840167281A387EFB004B3302 /* cpBody.h */,
+				840167291A387EFB004B3302 /* cpConstraint.h */,
+				8401672A1A387EFB004B3302 /* cpDampedRotarySpring.h */,
+				8401672B1A387EFB004B3302 /* cpDampedSpring.h */,
+				8401672C1A387EFB004B3302 /* cpGearJoint.h */,
+				8401672D1A387EFB004B3302 /* cpGrooveJoint.h */,
+				8401672E1A387EFB004B3302 /* cpPinJoint.h */,
+				8401672F1A387EFB004B3302 /* cpPivotJoint.h */,
+				840167301A387EFB004B3302 /* cpPolyShape.h */,
+				840167311A387EFB004B3302 /* cpRatchetJoint.h */,
+				840167321A387EFB004B3302 /* cpRotaryLimitJoint.h */,
+				840167331A387EFB004B3302 /* cpShape.h */,
+				840167341A387EFB004B3302 /* cpSimpleMotor.h */,
+				840167351A387EFB004B3302 /* cpSlideJoint.h */,
+				840167361A387EFB004B3302 /* cpSpace.h */,
+				840167371A387EFB004B3302 /* cpSpatialIndex.h */,
+				840167381A387EFB004B3302 /* cpTransform.h */,
+				840167391A387EFB004B3302 /* cpVect.h */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		8401673C1A387EFB004B3302 /* ObjectiveChipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				8401673D1A387EFB004B3302 /* ChipmunkBody.h */,
+				8401673E1A387EFB004B3302 /* ChipmunkConstraint.h */,
+				8401673F1A387EFB004B3302 /* ChipmunkExtras.h */,
+				840167401A387EFB004B3302 /* ChipmunkMultiGrab.h */,
+				840167411A387EFB004B3302 /* ChipmunkShape.h */,
+				840167421A387EFB004B3302 /* ChipmunkSpace.h */,
+				840167431A387EFB004B3302 /* ObjectiveChipmunk.h */,
+			);
+			path = ObjectiveChipmunk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840166CB1A38713A004B3302 /* AlvinPhysicsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840166EF1A38713A004B3302 /* Build configuration list for PBXNativeTarget "AlvinPhysicsDemo" */;
+			buildPhases = (
+				840166C81A38713A004B3302 /* Sources */,
+				840166C91A38713A004B3302 /* Frameworks */,
+				840166CA1A38713A004B3302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlvinPhysicsDemo;
+			productName = AlvinPhysicsDemo;
+			productReference = 840166CC1A38713A004B3302 /* AlvinPhysicsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840166E41A38713A004B3302 /* AlvinPhysicsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840166F21A38713A004B3302 /* Build configuration list for PBXNativeTarget "AlvinPhysicsDemoTests" */;
+			buildPhases = (
+				840166E11A38713A004B3302 /* Sources */,
+				840166E21A38713A004B3302 /* Frameworks */,
+				840166E31A38713A004B3302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840166E71A38713A004B3302 /* PBXTargetDependency */,
+			);
+			name = AlvinPhysicsDemoTests;
+			productName = AlvinPhysicsDemoTests;
+			productReference = 840166E51A38713A004B3302 /* AlvinPhysicsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840166C41A38713A004B3302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = IC;
+				TargetAttributes = {
+					840166CB1A38713A004B3302 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					840166E41A38713A004B3302 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 840166CB1A38713A004B3302;
+					};
+				};
+			};
+			buildConfigurationList = 840166C71A38713A004B3302 /* Build configuration list for PBXProject "AlvinPhysicsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840166C31A38713A004B3302;
+			productRefGroup = 840166CD1A38713A004B3302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840166CB1A38713A004B3302 /* AlvinPhysicsDemo */,
+				840166E41A38713A004B3302 /* AlvinPhysicsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840166CA1A38713A004B3302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840166DB1A38713A004B3302 /* Main.storyboard in Resources */,
+				840166E01A38713A004B3302 /* LaunchScreen.xib in Resources */,
+				840166DD1A38713A004B3302 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840166E31A38713A004B3302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840166C81A38713A004B3302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8401671A1A387187004B3302 /* AlvinScene.m in Sources */,
+				8401671B1A387187004B3302 /* AlvinSelectorAction.m in Sources */,
+				840167181A387187004B3302 /* AlvinQueueAction.m in Sources */,
+				840167191A387187004B3302 /* AlvinRepeatAction.m in Sources */,
+				840167131A387187004B3302 /* AlvinAction.m in Sources */,
+				840166D81A38713A004B3302 /* ViewController.m in Sources */,
+				8401671D1A387187004B3302 /* AlvinSleepAction.m in Sources */,
+				840167151A387187004B3302 /* AlvinBlockAction.m in Sources */,
+				840167171A387187004B3302 /* AlvinPhysicsWorld.m in Sources */,
+				840167141A387187004B3302 /* AlvinArt.m in Sources */,
+				8401671E1A387187004B3302 /* AlvinView.m in Sources */,
+				840167161A387187004B3302 /* AlvinPhysicsBody.m in Sources */,
+				8401671C1A387187004B3302 /* AlvinShapeArt.m in Sources */,
+				840166D51A38713A004B3302 /* AppDelegate.m in Sources */,
+				840166D21A38713A004B3302 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840166E11A38713A004B3302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840166EC1A38713A004B3302 /* AlvinPhysicsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840166E71A38713A004B3302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840166CB1A38713A004B3302 /* AlvinPhysicsDemo */;
+			targetProxy = 840166E61A38713A004B3302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840166D91A38713A004B3302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840166DA1A38713A004B3302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840166DE1A38713A004B3302 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840166DF1A38713A004B3302 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840166ED1A38713A004B3302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840166EE1A38713A004B3302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840166F01A38713A004B3302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlvinPhysicsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Desktop/AlvinPhysics/Chipmunk2D,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840166F11A38713A004B3302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlvinPhysicsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Desktop/AlvinPhysics/Chipmunk2D,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		840166F31A38713A004B3302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlvinPhysicsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlvinPhysicsDemo.app/AlvinPhysicsDemo";
+			};
+			name = Debug;
+		};
+		840166F41A38713A004B3302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlvinPhysicsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlvinPhysicsDemo.app/AlvinPhysicsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840166C71A38713A004B3302 /* Build configuration list for PBXProject "AlvinPhysicsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840166ED1A38713A004B3302 /* Debug */,
+				840166EE1A38713A004B3302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840166EF1A38713A004B3302 /* Build configuration list for PBXNativeTarget "AlvinPhysicsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840166F01A38713A004B3302 /* Debug */,
+				840166F11A38713A004B3302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840166F21A38713A004B3302 /* Build configuration list for PBXNativeTarget "AlvinPhysicsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840166F31A38713A004B3302 /* Debug */,
+				840166F41A38713A004B3302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840166C41A38713A004B3302 /* Project object */;
+}
